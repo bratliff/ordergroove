@@ -14,8 +14,8 @@
     </label>
    
   </div>
-  <ul class="doctorslist">
-    <li ng-animate="'animate'" class="doctor cf" ng-repeat="item in doctors | filter: query | orderBy: doctorOrder:direction">
+  <ul class="userlist">
+    <li ng-animate="'animate'" class="user cf" ng-repeat="item in users | filter: query | orderBy: userOrder:direction">
       <a href="#/details/{{doctors.indexOf(item)}}">
         <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
         <div class="info">

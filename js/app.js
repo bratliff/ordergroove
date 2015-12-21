@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', [
   'ngRoute',
-  'doctorControllers'
+  'userControllers'
 ]);
 
 myApp.config(['$routeProvider', function($routeProvider) {
