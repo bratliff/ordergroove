@@ -1,0 +1,12 @@
+<section class="doctorinfo">
+  <div class="doctor cf" ng-model="doctors">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+    <h1>{{doctors[whichItem].name}}</h1>
+    <div class="info">
+      <img ng-src="images/{{doctors[whichItem].shortname}}_tn.jpg" alt="Photo of {{doctors[whichItem].name}}">
+      <div class="bio">{{doctors[whichItem].bio}}</div>
+    </div>
+  </div>
+  <a href="index.html" class="back-btn">&laquo; Back to search</a>
+</section>
