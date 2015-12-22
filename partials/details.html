@@ -1,11 +1,15 @@
-<section class="doctorinfo">
-  <div class="doctor cf" ng-model="doctors">
+<section class="userinfo">
+  <div class="user cf" ng-model="doctors">
     <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
     <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
-    <h1>{{doctors[whichItem].name}}</h1>
+    <h1>{{users[whichItem].first_name}}<br />{{users[whichItem].last_name}}</h1>
     <div class="info">
-      <img ng-src="images/{{doctors[whichItem].shortname}}_tn.jpg" alt="Photo of {{doctors[whichItem].name}}">
-      <div class="bio">{{doctors[whichItem].bio}}</div>
+      <div class="username">Username: {{users[whichItem].username}}</div>
+      <div class="email">Email: {{users[whichItem].email}}</div>
+      <div class="city">City: {{users[whichItem].city}}</div>
+      <div class="city">Country: {{users[whichItem].country}}</div>
+      <div class="blog"><a href="{{users[whichItem].blog}}">Click to view blog</a></div>
+
     </div>
   </div>
   <a href="index.html" class="back-btn">&laquo; Back to search</a>

@@ -229,9 +229,9 @@ a.small {
   outline: 0;
 }
 
-/* doctor List Styles */
+/* user List Styles */
 
-.doctorslist {
+.userslist {
   background: none;
   width: 50%;
   min-width: 290px;
@@ -243,13 +243,13 @@ a.small {
   z-index: 10;
 }
 
-.doctorslist ul {
+.userslist ul {
   margin: 0;
   padding: 0;
   background: #FDF6E3;
 }
 
-.doctorslist li {
+.userslist li {
   margin: 0;
   padding: 10px 10px 0 10px;
   border-bottom: 1px dotted black;
@@ -260,12 +260,12 @@ a.small {
   transition: all 0.3s ease-out;
 }
 
-.doctorslist a {
+.userslist a {
   display: block;
   text-decoration: none;
 }
 
-.doctorslist li:hover {
+.userslist li:hover {
   background: #fff;
   opacity: 1;
   -webkit-transform: scale(1.1);
@@ -274,7 +274,7 @@ a.small {
   transform: scale(1.1);
 }
 
-.doctor img {
+.user img {
   display: block;
   float: left;
   width: 60px;
@@ -282,16 +282,16 @@ a.small {
   margin-bottom: 10px;
 }
 
-.doctor .info {
+.user .info {
   display: block;
   margin-top:20px;
 }
 
-.doctor:last-child {
+.user:last-child {
   border-bottom:none;
 }
 
-.doctorinfo {
+.userinfo {
   font-size: 1.1em;
   line-height: 160%;
   background: none;
@@ -307,17 +307,17 @@ a.small {
   z-index: 20;
 }
 
-.doctorinfo h1{
+.userinfo h1{
   font-size: 1.8em;
   margin: 30px 0;
 }
 
-.doctorinfo img {
+.userinfo img {
   width: 40%;
   max-width: 130px;
 }
 
-.doctorinfo .back-btn {
+.userinfo .back-btn {
   display:block;
   width:190px;
   margin-top:30px;
@@ -327,23 +327,28 @@ a.small {
   text-decoration:none;
 }
 
-.doctorinfo .back-btn:hover {
+.userinfo .back-btn:hover {
   background:#09576D;
    -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
-.doctor.ng-enter.ng-enter-active,
-.doctor.ng-leave {
+.user.ng-enter.ng-enter-active,
+.user.ng-leave {
   opacity: 1;
   height: 80px;
   overflow: hidden;
 }
 
-.doctor.ng-leave.ng-leave-active,
-.doctor.ng-enter {
+.user.ng-leave.ng-leave-active,
+.user.ng-enter {
   opacity: 0;
   height: 0;
   overflow: hidden;
 }
 
+
+.noresult {
+  text-align:center;
+  margin-top:50px;
+}
