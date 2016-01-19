@@ -1,6 +1,5 @@
-# ordergroove
-search box creation exercise
+# Angular Directory
 
-To view, code must be run on a server.
+Proof of concept for searchable doctors directory.
 
-Download the files and put them on a remote or local server. 
+To view, code must be run on a server.  Download the files and put them on a remote or local server. 
